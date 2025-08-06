@@ -1,0 +1,83 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+textarea {
+  height: 150px;
+  font-family: monospace;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+button:hover {
+  background-color: #004b99;
+}
+
+pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+}
+
+.snippet {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
